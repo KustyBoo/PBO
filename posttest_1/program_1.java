@@ -228,13 +228,13 @@ public class program_1 {
     }
 
     // Fungsi membersihkan layar
-    public static void bersih(){
+    static void bersih(){
         System.out.print("\033[H\033[2J");  
         System.out.flush();    
     }
 
     // Fungsi enter untuk lanjut
-    public static void lanjutan(){
+    static void lanjutan(){
         System.out.print("== Tekan ENTER...");
         Scanner enter = new Scanner(System.in);
         enter.nextLine();
